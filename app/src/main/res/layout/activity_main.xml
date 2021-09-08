@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10sp"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/note_d"
+        android:background="@color/red"
+        android:layout_weight="1"
+        >
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/note_e"
+        android:background="@color/orange"
+        android:layout_weight="1"
+        android:layout_margin="3sp"
+        >
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/note_f"
+        android:background="@color/yellow"
+        android:layout_weight="1"
+        android:layout_margin="6sp"
+        >
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/note_g"
+        android:background="@color/green"
+        android:layout_weight="1"
+        android:layout_margin="9sp"
+        >
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/note_a"
+        android:background="@color/greenyellow"
+        android:layout_weight="1"
+        android:layout_margin="12sp"
+        >
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/note_b"
+        android:background="@color/blue"
+        android:layout_weight="1"
+        android:layout_margin="15sp"
+        >
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/note_c"
+        android:background="@color/purple"
+        android:layout_weight="1"
+        android:layout_margin="18sp"
+        >
+
+    </RelativeLayout>
+</LinearLayout>
